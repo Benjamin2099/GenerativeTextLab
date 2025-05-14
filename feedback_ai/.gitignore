@@ -1,0 +1,27 @@
+# Byte-compiled Python Dateien und Caches
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Virtuelle Umgebungen
+venv/
+.env/
+
+# Temporäre Dateien und Logs
+*.log
+*.tmp
+
+# Editor-spezifische Dateien (z.B. Vim)
+*.swp
+*.swo
+
+# Große Dateien und Ordner (z.B. trainierte Modelle, Datensätze)
+models/
+data/raw/
+data/processed/
+
+# System-spezifische Dateien (Mac, Windows)
+.DS_Store
+Thumbs.db

@@ -1,0 +1,43 @@
+# ==========================================
+# .gitignore für SmartComplete-LSTM-Projekt
+# ==========================================
+
+# 1) Python-Bytecode / kompiliert
+__pycache__/
+*.py[cod]
+
+# 2) Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# 3) Virtuelle Umgebungen / Environment-Folder
+venv/
+.venv/
+env/
+*.env
+
+# 4) System-spezifische Dateien (MacOS, Windows, Linux)
+.DS_Store
+Thumbs.db
+
+# 5) Logs, temporäre Dateien
+*.log
+*.tmp
+
+# 6) Große oder sensible Dateien
+# z. B. Modellgewichte, falls du sie nicht versionieren möchtest
+models/
+*.pt
+*.pth
+
+# 7) Daten
+# Falls du große Datensätze nicht versionieren willst,
+# kannst du hier "data/processed/" ausschließen. 
+# data/raw/ je nach Projektentscheid, 
+# oft sollte man große Rohdaten nicht committen.
+data/processed/
+data/raw/
+
+# 8) Sonstiges
+# Falls du Docker nutzt, könntest du temporäre Dateien ausschließen
+*.envrc
+docker-compose.override.yml

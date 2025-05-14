@@ -1,0 +1,19 @@
+# Numerische Berechnungen und Datenmanipulation
+numpy==1.23.5
+pandas==1.5.3
+scikit-learn==1.2.0
+
+# PyTorch für das Modelltraining
+torch==1.13.1
+
+# Fortschrittsanzeige (z. B. in Trainingsschleifen)
+tqdm==4.64.1
+
+# Natural Language Processing: Tokenisierung und NLP-Aufgaben
+nltk==3.7
+
+# Transformers: Für den Einsatz vortrainierter Modelle (z. B. T5, GPT-2)
+transformers==4.28.0
+
+# Rank BM25 für Retrieval (BM25-Implementierung)
+rank_bm25==0.2.2

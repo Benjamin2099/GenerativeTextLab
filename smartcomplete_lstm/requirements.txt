@@ -1,0 +1,31 @@
+# ====================================
+# requirements.txt (Beispiel)
+# ====================================
+
+# -- Grundlegende Bibliotheken --
+numpy==1.23.5
+pandas==1.5.3
+matplotlib==3.6.2
+tqdm==4.64.1
+
+# -- NLTK (Tokenisierung, etc.) --
+nltk==3.7
+
+# -- PyTorch --
+torch==1.13.1
+torchvision==0.14.1
+
+# -- scikit-learn (z. B. train_test_split) --
+scikit-learn==1.2.0
+
+# -- Pytest für Testläufe --
+pytest==7.2.0
+pytest-cov==4.0.0
+
+# -- Optional: für JSON-Handling, Requests, etc. --
+# requests==2.28.1
+
+# -- Optional: falls du GPU-Support ohne conda brauchst, 
+# kannst du PyTorch mit CUDA-Abhängigkeiten 
+# direkt angeben (z. B. torch==1.13.1+cu116), 
+# kommt auf dein System an.

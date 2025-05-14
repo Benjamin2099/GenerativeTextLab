@@ -1,0 +1,16 @@
+# Grundlegende Bibliotheken
+numpy==1.23.5
+pandas==1.5.3
+scikit-learn==1.2.0
+
+# PyTorch
+torch==1.13.1
+
+# Fortschrittsanzeige während des Trainings
+tqdm==4.64.1
+
+# Natural Language Processing
+nltk==3.7
+
+# Optional: Für Transformer-Modelle (z.B. GPT-2, T5, BART)
+transformers==4.28.0

@@ -1,0 +1,16 @@
+# Numerische Berechnungen und Datenmanipulation
+numpy==1.23.5
+pandas==1.5.3
+scikit-learn==1.2.0
+
+# PyTorch für das Modelltraining
+torch==1.13.1
+
+# Fortschrittsanzeige (z.B. in Trainingsschleifen)
+tqdm==4.64.1
+
+# Natural Language Processing
+nltk==3.7
+
+# Transformers (für den optionalen Einsatz von GPT-2/T5 oder RLHF-bezogene Ansätze)
+transformers==4.28.0

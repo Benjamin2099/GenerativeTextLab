@@ -1,0 +1,27 @@
+# Byte-compiled / compiled Python files
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Virtuelle Umgebungen / Environment-Folder
+venv/
+.env/
+
+# Temporäre Dateien
+*.tmp
+*.log
+
+# Editor-spezifische Dateien (z.B. Vim, Sublime Text)
+*.swp
+*.swo
+
+# Große Modell- und Datendateien (optional, je nach Projektgröße)
+models/
+data/raw/
+data/processed/
+
+# System-spezifische Dateien (Mac, Windows)
+.DS_Store
+Thumbs.db

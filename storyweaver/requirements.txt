@@ -1,0 +1,28 @@
+# ====================================
+# Requirements für StoryWeaver-Projekt
+# ====================================
+
+# Grundlegende Bibliotheken für numerische Operationen & Datenhandling
+numpy==1.23.5
+pandas==1.5.3
+
+# Visualisierung
+matplotlib==3.6.2
+tqdm==4.64.1
+
+# NLP-Bibliothek (für Tokenisierung und mehr)
+nltk==3.7
+
+# PyTorch (für das LSTM-Modell)
+torch==1.13.1
+torchvision==0.14.1
+
+# Transformers (für optionalen GPT-2/Transformer-Ansatz)
+transformers==4.28.0
+
+# Scikit-learn (zum Aufteilen der Daten z. B. train_test_split)
+scikit-learn==1.2.0
+
+# Für Unit-Tests
+pytest==7.2.0
+pytest-cov==4.0.0

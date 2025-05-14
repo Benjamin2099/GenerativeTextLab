@@ -1,0 +1,16 @@
+# Grundlegende Bibliotheken für numerische Berechnungen und Datenmanipulation
+numpy==1.23.5
+pandas==1.5.3
+scikit-learn==1.2.0
+
+# PyTorch (für Modellierung und Training)
+torch==1.13.1
+
+# Fortschrittsanzeige
+tqdm==4.64.1
+
+# Natural Language Processing (Tokenisierung etc.)
+nltk==3.7
+
+# Transformers (für den optionalen Einsatz von GPT-2/T5)
+transformers==4.28.0

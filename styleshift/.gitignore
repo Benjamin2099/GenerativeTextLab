@@ -1,0 +1,27 @@
+# Python-Bytecode und Cache
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Virtuelle Umgebungen
+venv/
+.env/
+
+# Temporäre Dateien und Logs
+*.log
+*.tmp
+
+# Editor-spezifische Dateien
+*.swp
+*.swo
+
+# Große Modell- oder Datendateien (falls nicht versioniert werden sollen)
+models/
+data/raw/
+data/processed/
+
+# System-spezifische Dateien
+.DS_Store
+Thumbs.db

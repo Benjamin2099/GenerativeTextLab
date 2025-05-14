@@ -1,0 +1,36 @@
+# ==========================================
+# .gitignore für StoryWeaver-Projekt
+# ==========================================
+
+# Python-Bytecode / kompilierte Dateien
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Virtuelle Umgebungen
+venv/
+.venv/
+env/
+*.env
+
+# Betriebssystem-spezifische Dateien
+.DS_Store
+Thumbs.db
+
+# Log-Dateien und temporäre Dateien
+*.log
+*.tmp
+
+# Modellgewichte und große Dateien (falls nicht versioniert)
+models/
+*.pt
+*.pth
+
+# Datenordner (optional: Große Rohdaten oder vorverarbeitete Daten)
+data/raw/
+data/processed/
+
+# Weitere temporäre Dateien, Editor-spezifisch
+*.swp

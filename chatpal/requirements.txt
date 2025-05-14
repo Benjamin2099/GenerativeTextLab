@@ -1,0 +1,18 @@
+# Grundlegende numerische und Datenmanipulations-Bibliotheken
+numpy==1.23.5
+pandas==1.5.3
+
+# PyTorch (mit passender Version; ggf. GPU-Version anpassen)
+torch==1.13.1
+
+# Für Fortschrittsbalken während des Trainings
+tqdm==4.64.1
+
+# NLTK für Tokenisierung und weitere NLP-Aufgaben
+nltk==3.7
+
+# Optional: Transformers-Bibliothek für GPT-2-Modelle, falls du diese Option nutzen möchtest
+transformers==4.28.0
+
+# Scikit-learn für Hilfsfunktionen, z.B. train_test_split
+scikit-learn==1.2.0
